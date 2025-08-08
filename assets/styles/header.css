@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background: white;
+    box-shadow: 0px 0px 10px 0px #00000049;
+}
+
+.logo-text {
+    margin-left: 3rem;
+}
+
+nav {
+    margin-right: 3rem;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+nav > ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul a:hover {
+    color: blue;
+}

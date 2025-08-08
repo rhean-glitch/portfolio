@@ -1,0 +1,104 @@
+.me {
+    background-image: url('/assets/images/building.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+    margin-top: 4rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i {
+    width: 42rem;
+    height: 6.5rem;
+    background: #e9fcff;
+    margin-top: 1rem;
+    border-radius: 4rem;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.line {
+    width: 1px;
+    height: 4rem;
+    background: #8d8989;
+}
+
+.co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.co>i {
+    font-size: 3rem;
+}
+
+.meet {
+    position: relative;
+}
+
+.meet-text {
+    width: 35rem;
+    padding-top: 6.5rem;
+    margin-left: 2.8rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.m-text>h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow:
+        2px 2px 0 rgba(0, 0, 0, 0.2),
+        -2px -2px 0 rgba(0, 0, 0, 0.2),
+        2px -2px 0 rgba(0, 0, 0, 0.2),
+        -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.m-text>p {
+    text-align: justify;
+    font-size: 1.6rem;
+    color: white;
+    text-shadow:
+        2px 2px 0 rgba(0, 0, 0, 0.2),
+        -2px -2px 0 rgba(0, 0, 0, 0.2),
+        2px -2px 0 rgba(0, 0, 0, 0.2),
+        -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.meet-img>img {
+    width: 59rem;
+    object-fit: cover;
+    position: absolute;
+    top: 3.1rem;
+    right: 0;
+}
+
+.m-icon {
+    width: 32rem;
+    height: 6.3rem;
+    background: white;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.lang > img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+}
