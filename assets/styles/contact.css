@@ -1,0 +1,130 @@
+.contat-head {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.con-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-text {
+    width: 28rem;
+}
+
+.contexts h1 {
+    font-size: 2.3rem;
+}
+.contexts p {
+    font-size: 1.2rem;
+}
+
+.con-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.c-bg {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.concat {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concat i {
+    font-size: 1.5rem;
+}
+
+.context a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-form {
+    width: 30rem;
+    height: 20rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.f-form {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1.3rem;
+}
+
+.s-form {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.f-form input,
+.s-form input {
+    width: 12rem;
+    height: 2.5rem;
+    padding-left: 0.7rem;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+    background: #edecec;
+    border-radius: 0.3rem;
+}
+
+.t-form {
+    margin-top: 0.8rem;
+}
+
+.t-form input {
+    width: 24.8rem;
+    height: 2.5rem;
+    padding-left: 0.7rem;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+    background: #edecec;
+    border-radius: 0.3rem;
+}
+
+.p-cont p {
+    margin-top: 1.8rem;
+}
+
+.form-check {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.form-check p {
+    font-size: 0.8rem;
+}
+
+.form-btn button {
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+}
