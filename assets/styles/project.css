@@ -69,4 +69,37 @@
     text-align: right;
 }
 
+.hero-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-11>button {
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    border: none;
+    box-shadow: 5px 5px 1px 1px #000000af;
+}
+
+
+.btn-12>button {
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    border: none;
+    box-shadow: 5px 5px 1px 1px #000000af;
+}
+
 

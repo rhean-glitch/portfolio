@@ -1,4 +1,51 @@
 footer {
-    height: 20rem;
+    height: 15rem;
     background: white;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pages-links,
+.connect-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.pages-links a,
+.connect-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.pages {
+    padding-top: 3rem;
+}
+
+.f-links h3 {
+    font-size: 1.7rem;
+}
+
+.v-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.vert {
+    width: 60rem;
+    height: 0.05rem;
+    background: #959595;
+}
+
+.last-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: #393838;
 }
